@@ -15,7 +15,7 @@ alwaysApply: true
     <title>Simple CSS Example</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
+        font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
         padding: 20px;
       }
 
