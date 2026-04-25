@@ -1,0 +1,46 @@
+---
+alwaysApply: true
+---
+
+# 매우 간단한 CSS 사용 예제
+
+아래 예제는 버튼 색상, 여백, 모서리 둥글게 처리만 보여주는 최소 예제입니다.
+
+```html
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple CSS Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+
+      .box {
+        background: #f4f4f4;
+        padding: 16px;
+        border-radius: 8px;
+      }
+
+      .btn {
+        background: #2563eb;
+        color: white;
+        border: none;
+        padding: 10px 14px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>CSS 예제</h1>
+      <p>아주 간단한 스타일 적용 예시입니다.</p>
+      <button class="btn">클릭</button>
+    </div>
+  </body>
+</html>
+```
